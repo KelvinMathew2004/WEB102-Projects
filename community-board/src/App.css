@@ -56,7 +56,14 @@
   border: 1px solid #ffd700;
   border-radius: 10px;
   color: aliceblue;
-  height: 460px;
+  height: 480px;
+}
+
+.movie:hover {
+  background-color: #2a374e;
+  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.3);
+  transform: scale(1.05);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .movie img {
