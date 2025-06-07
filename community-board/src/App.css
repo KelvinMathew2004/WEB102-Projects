@@ -63,7 +63,7 @@
   background-color: #2a374e;
   box-shadow: 0 4px 16px rgba(255, 215, 0, 0.3);
   transform: scale(1.05);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.2s ease-out, background-color 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 .movie img {
