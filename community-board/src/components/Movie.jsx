@@ -2,8 +2,8 @@ function Movie(props) {
   return (
     <div className="movie">
       <img src={props.image} alt={props.title} />
-      <h2>{props.title}</h2>
-      <p>{props.releaseDate}</p>
+      <h3>{props.title}</h3>
+      <a style={{ fontWeight: 'bold' }}>{props.releaseDate}</a>
       <a href={props.trailerLink} className="button">Watch Trailer</a>
     </div>
   )
